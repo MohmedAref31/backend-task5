@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    {{>header}}
+    <div class="main">
+        <div class="main-container">
+        <form id="form">
+            <input type="text" id="inp" placeholder="enter country name"/>
+            <button type="submit">show weather</button>
+        </form>
+
+        <div class="show">
+            <p  id="cName"></p>
+            <p  id="cloc"></p>
+            <p  id="cW"></p>
+            <P id="error"></P>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
